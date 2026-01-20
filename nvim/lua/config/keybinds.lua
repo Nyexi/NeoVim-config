@@ -5,7 +5,7 @@ vim.keymap.set("i", "<C-j>", "<Down>")
 vim.keymap.set("i", "<C-k>", "<Up>")
 
 --Set leader ket--
-vim.g.mapleader = " "
+vim.g.mapleader = "`"
 
 --Set binds with leader--
 vim.keymap.set("n", "<leader>w", vim.cmd.w)

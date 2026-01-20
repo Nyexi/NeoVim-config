@@ -18,7 +18,7 @@ return {
         "ada_language_server",
         "hls",
         "ast_grep",
-        "gopls"
+        "gopls",
       },
     }
 
@@ -29,7 +29,7 @@ return {
     for _, server in ipairs({
       "lua_ls", "clangd", "pyright",
       "html", "cssls", "ts_ls",
-      "rust_analyzer", "hls"
+      "rust_analyzer", "hls",
     }) do
       lspconfig[server].setup { capabilities = capabilities }
     end
